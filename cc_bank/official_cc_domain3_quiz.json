@@ -1,0 +1,347 @@
+{
+    "Exam Name": "\ud83e\udde0 ISC2 CC Quiz \u2014 Domain 3 (Access Control Concepts)",
+    "Number of Questions": 28,
+    "Default Time": 56,
+    "Instructions": "Read the questions carefully and select the best answer.",
+    "DomainPercentages": {
+        "ISC2 CC Domain 3": 100
+    },
+    "Questions": [
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "Which of the following is an example of a security control?",
+            "Choices": [
+                "A. Firewall",
+                "B. Web browser",
+                "C. Computer mouse",
+                "D. Network cable"
+            ],
+            "AnswerKey": "A. Firewall",
+            "Explaination": "A firewall is a technical security control designed to restrict network traffic."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "What is the definition of an object in the context of access controls?",
+            "Choices": [
+                "A. An entity that responds to a request for service",
+                "B. A device with onboard firmware",
+                "C. Something that contains its own access control logic",
+                "D. Anything that initiates a request for service"
+            ],
+            "AnswerKey": "A. An entity that responds to a request for service",
+            "Explaination": "Objects are passive resources that subjects attempt to access."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "Derrick logs on to a system to read a file. In this example, Derrick is the ______.",
+            "Choices": [
+                "A. Predicate",
+                "B. Process",
+                "C. Object",
+                "D. Subject"
+            ],
+            "AnswerKey": "D. Subject",
+            "Explaination": "A subject is an active entity that initiates access."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "Which of the following is a subject?",
+            "Choices": [
+                "A. Filename",
+                "B. Fence",
+                "C. File",
+                "D. User"
+            ],
+            "AnswerKey": "D. User",
+            "Explaination": "A user is an active entity requesting access."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "What strategy integrates people, technology, and operations to create multiple layers of protection?",
+            "Choices": [
+                "A. Cyberattack Prevention",
+                "B. Layered Defense",
+                "C. Multi-Factor Authentication",
+                "D. Single Point of Failure"
+            ],
+            "AnswerKey": "B. Layered Defense",
+            "Explaination": "Layered defense (defense in depth) uses multiple controls across layers."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "How does privileged access management implement least privilege?",
+            "Choices": [
+                "A. Restricting access to critical information only",
+                "B. Granting maximum access to all users",
+                "C. Providing access based on seniority",
+                "D. Granting users only what they need"
+            ],
+            "AnswerKey": "D. Granting users only what they need",
+            "Explaination": "Least privilege limits access strictly to job requirements."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "In Mandatory Access Control (MAC), what determines access levels?",
+            "Choices": [
+                "A. Government policy and security clearance",
+                "B. Owner discretion",
+                "C. Individual judgment",
+                "D. Request basis"
+            ],
+            "AnswerKey": "A. Government policy and security clearance",
+            "Explaination": "MAC is centrally enforced and not user-controlled."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "Which is an example of a logical access control?",
+            "Choices": [
+                "A. Cameras",
+                "B. Security guards",
+                "C. Turnstiles",
+                "D. Biometrics on a smartphone"
+            ],
+            "AnswerKey": "D. Biometrics on a smartphone",
+            "Explaination": "Logical controls are technical mechanisms enforcing access."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "Limiting access to data on a network is what type of control?",
+            "Choices": [
+                "A. Physical",
+                "B. Administrative",
+                "C. Logical or technical",
+                "D. Virtualization"
+            ],
+            "AnswerKey": "C. Logical or technical",
+            "Explaination": "Network access restrictions are technical controls."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "In the seat belt analogy, what is an administrative control?",
+            "Choices": [
+                "A. Using the seat belt",
+                "B. Passing a law requiring seat belt use",
+                "C. Building a car with seat belts",
+                "D. Attaching the seat belt"
+            ],
+            "AnswerKey": "B. Passing a law requiring seat belt use",
+            "Explaination": "Administrative controls are policies, rules, or laws."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "What alternative control fits when biometric locks are unnecessary and auditing is not required?",
+            "Choices": [
+                "A. Biometric scanners on all doors",
+                "B. Permanent walls",
+                "C. Removing doors",
+                "D. Deadbolt locks"
+            ],
+            "AnswerKey": "D. Deadbolt locks",
+            "Explaination": "Simpler physical controls may be sufficient and proportional."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "Which physical controls share a single point of failure?",
+            "Choices": [
+                "A. Badge readers and walls",
+                "B. Dogs and bollards",
+                "C. Guards and fences",
+                "D. Lighting and cameras"
+            ],
+            "AnswerKey": "D. Lighting and cameras",
+            "Explaination": "Both rely on power, creating a shared failure point."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "Which is an example of a physical access control?",
+            "Choices": [
+                "A. Firewalls",
+                "B. Encryption",
+                "C. Antivirus software",
+                "D. Motion detectors"
+            ],
+            "AnswerKey": "D. Motion detectors",
+            "Explaination": "Physical controls protect facilities and environments."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "What challenge do SMBs face with payroll system controls?",
+            "Choices": [
+                "A. Inadequate physical controls",
+                "B. Insufficient personnel for separation of duties",
+                "C. Lack of administrative controls",
+                "D. Limited availability requirements"
+            ],
+            "AnswerKey": "B. Insufficient personnel for separation of duties",
+            "Explaination": "Smaller staff sizes limit duty separation."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "What do behavioral biometrics measure?",
+            "Choices": [
+                "A. Physiological attributes",
+                "B. Fingerprints and iris scans",
+                "C. Environmental design",
+                "D. User actions (keystrokes, voice)"
+            ],
+            "AnswerKey": "User actions",
+            "Explaination": "Behavioral biometrics analyze how users behave."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "RBAC works best in which environment?",
+            "Choices": [
+                "A. Limited access for all",
+                "B. High turnover with similar access needs",
+                "C. Low staff turnover",
+                "D. Unique access per user"
+            ],
+            "AnswerKey": "B. High turnover with similar access needs",
+            "Explaination": "RBAC simplifies management at scale."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "What is the term for inappropriate permission inheritance in RBAC?",
+            "Choices": [
+                "A. Permissions anomaly",
+                "B. Access overflow",
+                "C. Privilege creep",
+                "D. Role deviation"
+            ],
+            "AnswerKey": "C. Privilege creep",
+            "Explaination": "Privileges accumulate beyond role needs."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "What is a key feature of just-in-time privileged access?",
+            "Choices": [
+                "A. Permanent admin access",
+                "B. Role-based subsets of privileges",
+                "C. Static privileges",
+                "D. Unrestricted access"
+            ],
+            "AnswerKey": "B. Role-based subsets of privileges",
+            "Explaination": "JIT grants temporary, scoped access."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "Why disable accounts before deletion when employees leave?",
+            "Choices": [
+                "A. Allow access",
+                "B. Speed deletion",
+                "C. Preserve audit trail integrity",
+                "D. Prevent theft"
+            ],
+            "AnswerKey": "C. Preserve audit trail integrity",
+            "Explaination": "Files and logs may still reference the account."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "What is user provisioning?",
+            "Choices": [
+                "A. Managing access to systems and resources",
+                "B. Deleting user accounts",
+                "C. Running antivirus scans",
+                "D. Allowing full user control"
+            ],
+            "AnswerKey": "A. Managing access to systems and resources",
+            "Explaination": "Provisioning handles account creation and access."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "Who can modify rules in a MAC system?",
+            "Choices": [
+                "A. Object owners",
+                "B. All subjects",
+                "C. Security administrators",
+                "D. Random users"
+            ],
+            "AnswerKey": "C. Security administrators",
+            "Explaination": "MAC rules are centrally controlled."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "Requiring two people in a data center is called:",
+            "Choices": [
+                "A. Defense in depth",
+                "B. Multifactor authentication",
+                "C. Two-person integrity",
+                "D. Blockade"
+            ],
+            "AnswerKey": "C. Two-person integrity",
+            "Explaination": "Prevents single-person misuse."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "Why is DAC not scalable?",
+            "Choices": [
+                "A. Uses encryption",
+                "B. Hardware intensive",
+                "C. Relies on owner discretion",
+                "D. Uses MAC"
+            ],
+            "AnswerKey": "C. Relies on owner discretion",
+            "Explaination": "Owner-managed permissions do not scale well."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "What is the two-person rule?",
+            "Choices": [
+                "A. Same combination",
+                "B. Same duties",
+                "C. Same information",
+                "D. Two people together"
+            ],
+            "AnswerKey": "D. Two people together",
+            "Explaination": "Prevents unauthorized solo activity."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "What must a password be?",
+            "Choices": [
+                "A. Confidential",
+                "B. Unique",
+                "C. Shared",
+                "D. Mathematical"
+            ],
+            "AnswerKey": "A. Confidential",
+            "Explaination": "Password secrecy is essential."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "Which control prevents tailgating?",
+            "Choices": [
+                "A. Bollard",
+                "B. Turnstile",
+                "C. Fence",
+                "D. Wall"
+            ],
+            "AnswerKey": "B. Turnstile",
+            "Explaination": "Allows only one person at a time."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "Responsibility of admins with privileged accounts?",
+            "Choices": [
+                "A. OS and applications",
+                "B. Marketing",
+                "C. Customer service",
+                "D. Finance"
+            ],
+            "AnswerKey": "A. OS and applications",
+            "Explaination": "Privileged admins manage core systems."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 3",
+            "Question": "Which is a monitoring tool?",
+            "Choices": [
+                "A. Passwords",
+                "B. Biometrics",
+                "C. Turnstiles",
+                "D. Cameras"
+            ],
+            "AnswerKey": "D. Cameras",
+            "Explaination": "Cameras provide surveillance and monitoring."
+        }
+    ]
+}

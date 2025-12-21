@@ -1,0 +1,455 @@
+{
+    "Exam Name": "\ud83e\udde0 ISC2 CC Quiz \u2014 Domain 1 (Risk, Ethics, Governance, Controls)",
+    "Number of Questions": 37,
+    "Default Time": 74,
+    "Instructions": "Read the questions carefully and select the best answer.",
+    "DomainPercentages": {
+        "ISC2 CC Domain 1": 100
+    },
+    "Questions": [
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "The concept of \"secrecy\" is most related to which foundational aspect of security?",
+            "Choices": [
+                "A. Availability",
+                "B. Confidentiality",
+                "C. Integrity",
+                "D. Plausibility"
+            ],
+            "AnswerKey": "B. Confidentiality",
+            "Explaination": "Confidentiality focuses on limiting access to information, which aligns most closely with secrecy."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "Which region enacted comprehensive legislation addressing personal privacy in 2016?",
+            "Choices": [
+                "A. Africa",
+                "B. Asia-Pacific",
+                "C. European Union",
+                "D. United States"
+            ],
+            "AnswerKey": "C. European Union",
+            "Explaination": "The EU enacted GDPR in 2016, recognizing privacy as a human right."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "What is the purpose of implementing security controls in the risk management process?",
+            "Choices": [
+                "A. To eliminate all vulnerabilities",
+                "B. To ensure cyberattacks are impossible",
+                "C. To increase risk",
+                "D. To mitigate risk to an acceptable level"
+            ],
+            "AnswerKey": "D. To mitigate risk to an acceptable level",
+            "Explaination": "Controls reduce risk to a level acceptable to the organization, not to zero."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "If a pickpocket is a threat, what is the attack vector?",
+            "Choices": [
+                "A. The crowded tourist spot",
+                "B. Their technique and approach",
+                "C. The stolen goods",
+                "D. Tourists"
+            ],
+            "AnswerKey": "B. Their technique and approach",
+            "Explaination": "An attack vector is the method or path used to exploit a vulnerability."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "How do identity theft insurance companies manage financial risk?",
+            "Choices": [
+                "A. Always honoring payouts",
+                "B. Calculating premiums against potential payouts",
+                "C. Charging low premiums",
+                "D. Restricting claims"
+            ],
+            "AnswerKey": "B. Calculating premiums against potential payouts",
+            "Explaination": "This is an example of financial risk management."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "What term refers to information that narrows identification when combined with other data?",
+            "Choices": [
+                "A. Limited Access Data",
+                "B. Personal Identification Element",
+                "C. Personally Identifiable Information",
+                "D. PII Fusion"
+            ],
+            "AnswerKey": "Personally Identifiable Information (PII)",
+            "Explaination": "PII can identify individuals, especially when combined."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "What risk occurs when a remote worker leaves a laptop unattended?",
+            "Choices": [
+                "A. Power outage corruption",
+                "B. Loss of internet",
+                "C. Malware introduction",
+                "D. Generator failure"
+            ],
+            "AnswerKey": "C. Malware introduction",
+            "Explaination": "Unattended systems can be compromised by unauthorized software."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "Which U.S. law governs medical information privacy?",
+            "Choices": [
+                "A. FERPA",
+                "B. GDPR",
+                "C. HIPAA",
+                "D. HITECH"
+            ],
+            "AnswerKey": "C. HIPAA",
+            "Explaination": "HIPAA regulates medical information privacy in the U.S."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "What is an asset in risk management terminology?",
+            "Choices": [
+                "A. Actionable information",
+                "B. A vulnerability",
+                "C. Something in need of protection",
+                "D. A threat actor"
+            ],
+            "AnswerKey": "C. Something in need of protection",
+            "Explaination": "Assets are what organizations seek to protect."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "Who determines risk tolerance in an organization?",
+            "Choices": [
+                "A. All employees",
+                "B. Executive management and board",
+                "C. Consultants",
+                "D. Risk team only"
+            ],
+            "AnswerKey": "B. Executive management and board",
+            "Explaination": "Risk tolerance is a strategic decision."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "What action mitigates risk associated with a threat?",
+            "Choices": [
+                "A. Ignoring it",
+                "B. Increasing likelihood",
+                "C. Strengthening vulnerability",
+                "D. Evaluating likelihood and acting"
+            ],
+            "AnswerKey": "D. Evaluating likelihood and acting",
+            "Explaination": "Mitigation involves informed action."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "Which regulation protects personal data in the EU regardless of citizenship?",
+            "Choices": [
+                "A. HIPAA",
+                "B. ISO",
+                "C. GDPR",
+                "D. DSCA"
+            ],
+            "AnswerKey": "C. GDPR",
+            "Explaination": "GDPR applies to anyone within the EU."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "What role do security professionals play in system-level risk assessment?",
+            "Choices": [
+                "A. Ignore it",
+                "B. Delegate it",
+                "C. Assist with assessment",
+                "D. Focus only on strategy"
+            ],
+            "AnswerKey": "C. Assist with assessment",
+            "Explaination": "Security professionals support assessment activities."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "Who is responsible for identifying risks?",
+            "Choices": [
+                "A. Security team only",
+                "B. Executives only",
+                "C. Risk team only",
+                "D. All employees"
+            ],
+            "AnswerKey": "D. All employees",
+            "Explaination": "Risk identification is organization-wide."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "What is the purpose of a risk matrix?",
+            "Choices": [
+                "A. Eliminate risks",
+                "B. Assign numbers only",
+                "C. Determine root cause",
+                "D. Prioritize risk"
+            ],
+            "AnswerKey": "D. Prioritize risk",
+            "Explaination": "Risk matrices compare likelihood and impact."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "According to the Code of Ethics, what must security professionals uphold?",
+            "Choices": [
+                "A. Creativity",
+                "B. Speed",
+                "C. Secrecy",
+                "D. Honor, honesty, responsibility"
+            ],
+            "AnswerKey": "D. Honor, honesty, responsibility",
+            "Explaination": "Ethics emphasize integrity and legality."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "Which are fundamental authentication factors? (Select all that apply)",
+            "Choices": [
+                "A. Something you have",
+                "B. Something you know",
+                "C. Something you are",
+                "D. Somewhere you are"
+            ],
+            "AnswerKey": "Something you have, know, are",
+            "Explaination": "These are the classic authentication factors."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "You observe cheating during an ISC2 exam. What should you do?",
+            "Choices": [
+                "A. Ignore it",
+                "B. Call police",
+                "C. Yell at them",
+                "D. Report to ISC2"
+            ],
+            "AnswerKey": "D. Report to ISC2",
+            "Explaination": "Upholding exam integrity is required."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "What is the PRIMARY purpose of the ISC2 Code of Ethics?",
+            "Choices": [
+                "A. Protect professionals",
+                "B. Define laws",
+                "C. Enforce behavior",
+                "D. Protect society and public trust"
+            ],
+            "AnswerKey": "D. Protect society and public trust",
+            "Explaination": "Canon 1 has the highest priority."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "ATM card + PIN is an example of what?",
+            "Choices": [
+                "A. Single-factor",
+                "B. Biometric",
+                "C. Knowledge-based",
+                "D. Two-factor"
+            ],
+            "AnswerKey": "D. Two-factor",
+            "Explaination": "Card = have, PIN = know."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "Kristal discovers her company is secretly sharing user data for persecution. Who does she ultimately owe a duty to?",
+            "Choices": [
+                "A. ISC2",
+                "B. Company",
+                "C. Governments",
+                "D. Users"
+            ],
+            "AnswerKey": "D. Users",
+            "Explaination": "Canon 1 prioritizes society and the public."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "What is non-repudiation?",
+            "Choices": [
+                "A. Prevents replay attacks",
+                "B. Administrative rule",
+                "C. Prevents denial of actions",
+                "D. Reputation protection"
+            ],
+            "AnswerKey": "C. Prevents denial of actions",
+            "Explaination": "Users cannot deny actions they performed."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "Which attack encrypts data until ransom is paid?",
+            "Choices": [
+                "A. Phishing",
+                "B. MITM",
+                "C. DDoS",
+                "D. Ransomware"
+            ],
+            "AnswerKey": "D. Ransomware",
+            "Explaination": "It targets availability."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "In e-commerce, non-repudiation protects against what?",
+            "Choices": [
+                "A. Data breaches",
+                "B. Identity theft",
+                "C. Unauthorized access",
+                "D. Denial of transactions"
+            ],
+            "AnswerKey": "D. Denial of transactions",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "What does knowledge-based authentication involve?",
+            "Choices": [
+                "A. Tokens",
+                "B. Biometrics",
+                "C. Passphrases",
+                "D. Multiple factors"
+            ],
+            "AnswerKey": "C. Passphrases",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "How does a trauma center ensure zero tolerance for power failure?",
+            "Choices": [
+                "A. Licensing services",
+                "B. Multiple units",
+                "C. Fuel contracts",
+                "D. Power redundancy"
+            ],
+            "AnswerKey": "D. Power redundancy",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "Which is NOT a risk treatment option?",
+            "Choices": [
+                "A. Accept",
+                "B. Avoid",
+                "C. Mitigate",
+                "D. Conflate"
+            ],
+            "AnswerKey": "D. Conflate",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "Ignoring a risk and proceeding is which treatment?",
+            "Choices": [
+                "A. Transfer",
+                "B. Avoid",
+                "C. Accept",
+                "D. Mitigate"
+            ],
+            "AnswerKey": "C. Accept",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "Risk tolerance is often likened to what?",
+            "Choices": [
+                "A. Risk appetite",
+                "B. Risk assessment",
+                "C. Risk avoidance",
+                "D. Risk management"
+            ],
+            "AnswerKey": "A. Risk appetite",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "Siobhan avoids an online purchase to protect her data. What treatment is this?",
+            "Choices": [
+                "A. Accept",
+                "B. Avoid",
+                "C. Transfer",
+                "D. Mitigate"
+            ],
+            "AnswerKey": "B. Avoid",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "What happens to risk assessment results?",
+            "Choices": [
+                "A. Kept private",
+                "B. Discarded",
+                "C. Shared externally only",
+                "D. Reported to management"
+            ],
+            "AnswerKey": "D. Reported to management",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "Which is a physical control?",
+            "Choices": [
+                "A. Firewall",
+                "B. Password policy",
+                "C. Access process",
+                "D. Walls and locks"
+            ],
+            "AnswerKey": "D. Walls and locks",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "Which CIA element ensures timely access?",
+            "Choices": [
+                "A. Confidentiality",
+                "B. Integrity",
+                "C. Availability",
+                "D. Consistency"
+            ],
+            "AnswerKey": "C. Availability",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "A cloud acceptable-use policy is what type of control?",
+            "Choices": [
+                "A. Technical",
+                "B. Physical",
+                "C. Administrative",
+                "D. Cloud"
+            ],
+            "AnswerKey": "C. Administrative",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "Correct governance hierarchy (highest \u2192 lowest)?",
+            "Choices": [
+                "A. Policies, standards, procedures, regulations",
+                "B. Regulations, standards, policies, procedures",
+                "C. Standards, procedures, policies, regulations",
+                "D. Procedures, policies, regulations, standards"
+            ],
+            "AnswerKey": "B. Regulations, standards, policies, procedures",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "A step-by-step OS installation document is a:",
+            "Choices": [
+                "A. Policy",
+                "B. Guideline",
+                "C. Standard",
+                "D. Procedure"
+            ],
+            "AnswerKey": "D. Procedure",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 1",
+            "Question": "A new law conflicts with company policy. What must be followed?",
+            "Choices": [
+                "A. Procedures",
+                "B. Policy",
+                "C. Personal judgment",
+                "D. The law"
+            ],
+            "AnswerKey": "D. The law",
+            "Explaination": "Laws supersede all internal governance."
+        }
+    ]
+}

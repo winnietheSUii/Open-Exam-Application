@@ -1,0 +1,503 @@
+{
+    "Exam Name": "\ud83e\udde0 ISC2 CC Quiz \u2014 Domain 4 (Network Security)",
+    "Number of Questions": 41,
+    "Default Time": 82,
+    "Instructions": "Read the questions carefully and select the best answer.",
+    "DomainPercentages": {
+        "ISC2 CC Domain 4": 100
+    },
+    "Questions": [
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What is a common network device used to connect networks?",
+            "Choices": [
+                "A. Endpoint",
+                "B. Router",
+                "C. Server",
+                "D. Switch"
+            ],
+            "AnswerKey": "B. Router",
+            "Explaination": "Routers are used to connect networks."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What is a common network device used to filter traffic?",
+            "Choices": [
+                "A. Endpoint",
+                "B. Ethernet",
+                "C. Firewall",
+                "D. Server"
+            ],
+            "AnswerKey": "C. Firewall",
+            "Explaination": "Firewalls are used to filter traffic."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What connects all devices behind the firewall in a small business network?",
+            "Choices": [
+                "A. Access Point",
+                "B. Router",
+                "C. Switch",
+                "D. Wireless"
+            ],
+            "AnswerKey": "C. Switch",
+            "Explaination": "In a small business network, all devices behind the firewall connect via the network switch."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What is a potential drawback associated with the freedom provided by wireless networking?",
+            "Choices": [
+                "A. Additional vulnerabilities",
+                "B. Enhanced physical access control",
+                "C. Limited signal range",
+                "D. Reduced deployment cost"
+            ],
+            "AnswerKey": "A. Additional vulnerabilities",
+            "Explaination": "With the freedom provided by wireless networking comes additional vulnerabilities."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What does micro-segmentation aid in protecting against?",
+            "Choices": [
+                "A. Advanced persistent threats",
+                "B. Infrastructure-centric design paradigms",
+                "C. Polymorphic toolsets",
+                "D. Traditional security models"
+            ],
+            "AnswerKey": "A. Advanced persistent threats",
+            "Explaination": "Micro-segmentation aids in protecting against advanced persistent threats."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "Which three of the following tools are used to both detect and block cyber threats? Select all that apply.",
+            "Choices": [
+                "A. Anti-malware/antivirus",
+                "B. Firewalls",
+                "C. Intrusion Protection System (IPS)",
+                "D. Vulnerability Scanner"
+            ],
+            "AnswerKey": "A. Anti-malware/antivirus, B. Firewalls, C. Intrusion Protection System (IPS)",
+            "Explaination": "Anti-malware/antivirus software, firewalls, and Intrusion Prevention Systems (IPS) are tools that can both detect and block threats, making them key components of proactive cybersecurity. In contrast, tools like SIEM or vulnerability scanners are typically used for monitoring, logging, or identifying weaknesses but do not directly stop threats from occurring."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What core cybersecurity principle does microsegmentation help enforce across different parts of an organization?",
+            "Choices": [
+                "A. Data Redundancy",
+                "B. Least privilege",
+                "C. Physical isolation",
+                "D. Rule complexity"
+            ],
+            "AnswerKey": "B. Least privilege",
+            "Explaination": "Microsegmentation supports the principle of least privilege by dividing networks into smaller segments and tightly controlling communication between them. This ensures that users, systems, or applications within one department or unit can only access the resources that are essential for their role. By minimizing unnecessary access, microsegmentation helps reduce the attack surface and limit lateral movement in the event of a breach."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What term describes a portion of the organization's network that interfaces directly with the outside world and typically has more security controls and restrictions compared to the rest of the internal IT environment?",
+            "Choices": [
+                "A. Demilitarized zone (DMZ)",
+                "B. National Institute of Standards and Technology (NIST)",
+                "C. Virtual local area network (VLAN)",
+                "D. Virtual private network (VPN)"
+            ],
+            "AnswerKey": "A. Demilitarized zone (DMZ)",
+            "Explaination": "Demilitarized Zones (DMZ) are a portion of the network which interfaces directly with the outside world and has more security controls and restrictions than its wider IT environment."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What is a potential alternative to expensive dedicated point-to-point connections?",
+            "Choices": [
+                "A. Expensive security protocols",
+                "B. Gateway-to-gateway VPNs",
+                "C. VPNs that are always encrypted",
+                "D. VPNs with untrusted network connections"
+            ],
+            "AnswerKey": "B. Gateway-to-gateway VPNs",
+            "Explaination": "Organizations use gateway-to-gateway VPNs as an alternative to expensive dedicated point-to-point connections."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "How does a Web Application Firewall (WAF) function in a network?",
+            "Choices": [
+                "A. It encrypts data between the web server and the internal network",
+                "B. It monitors all traffic from the outside for malicious behavior before passing commands to a web server",
+                "C. It segregates patient information and billing",
+                "D. It uses secure switches to control traffic"
+            ],
+            "AnswerKey": "B. It monitors all traffic from the outside for malicious behavior before passing commands to a web server",
+            "Explaination": "A WAF has an internal and an external connection, monitoring all traffic from the outside for malicious behavior before passing commands to a web server."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What is the primary purpose of Virtual Local Area Networks (VLANs)?",
+            "Choices": [
+                "A. Consolidate traffic across multiple switch ports",
+                "B. Guarantee network security",
+                "C. Increase broadcast traffic",
+                "D. Limit communications within VLANs"
+            ],
+            "AnswerKey": "A. Consolidate traffic across multiple switch ports",
+            "Explaination": "VLANs allow network administrators to use switches to create software-based LAN segments, consolidating traffic across multiple switch ports."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "Which of the following tools can be used to grant remote users access to the internal IT environment?",
+            "Choices": [
+                "A. DDOS (distributed denial-of-service)",
+                "B. MAC (media access control)",
+                "C. VLAN (virtual local area network)",
+                "D. VPN (virtual private network)"
+            ],
+            "AnswerKey": "D. VPN (virtual private network)",
+            "Explaination": "A VPN allows external users to gain access to the internal environment securely."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What is the function of transfer switches or transformers in a redundant power system?",
+            "Choices": [
+                "A. Control the speed of generators",
+                "B. Convert solar power into electricity",
+                "C. Enable seamless transition between power sources",
+                "D. Minimize energy consumption"
+            ],
+            "AnswerKey": "C. Enable seamless transition between power sources",
+            "Explaination": "Transfer switches or transformers facilitate a smooth transition between different power sources in a redundant power system."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "In a scenario requiring full redundancy, what should devices have in terms of power supplies?",
+            "Choices": [
+                "A. One power supply connected to a single source",
+                "B. Power supply connected to a generator",
+                "C. Single power supply",
+                "D. Two power supplies connected to diverse sources"
+            ],
+            "AnswerKey": "D. Two power supplies connected to diverse sources",
+            "Explaination": "Full redundancy in power supplies involves having two power supplies connected to diverse sources."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "Why is an abnormal system shutdown in a data center a concern?",
+            "Choices": [
+                "A. It increases equipment temperature",
+                "B. It leads to quicker equipment failure",
+                "C. It may result in the loss or corruption of data",
+                "D. It triggers the fire suppression system"
+            ],
+            "AnswerKey": "C. It may result in the loss or corruption of data",
+            "Explaination": "Abnormal system shutdowns can have adverse effects, including potential data loss or corruption."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What is the common term used to describe the mechanisms that control the temperature and humidity in a data center?",
+            "Choices": [
+                "A. HVAC (heating, ventilation and air conditioning)",
+                "B. STAT (system temperature and timing)",
+                "C. TAWC (temperature and water control)",
+                "D. VLAN (virtual local area network)"
+            ],
+            "AnswerKey": "A. HVAC (heating, ventilation and air conditioning)",
+            "Explaination": "HVAC (heating, ventilation and air conditioning) is the common term used to describe the mechanisms that control the temperature and humidity in a data center."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What is network monitoring or sniffing?",
+            "Choices": [
+                "A. A method to resist oversized packet attacks",
+                "B. Monitoring traffic patterns to obtain information about a network",
+                "C. The act of preventing DDoS attacks",
+                "D. The act of securing a network"
+            ],
+            "AnswerKey": "B. Monitoring traffic patterns to obtain information about a network",
+            "Explaination": "Network monitoring or sniffing is the act of monitoring traffic patterns to obtain information about a network."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What is the purpose of the three-way handshake in networking?",
+            "Choices": [
+                "A. Encrypting communication",
+                "B. Establishing a physical connection",
+                "C. Routing network traffic",
+                "D. Synchronizing and acknowledging requests"
+            ],
+            "AnswerKey": "D. Synchronizing and acknowledging requests",
+            "Explaination": "The three-way handshake is a system for synchronizing and acknowledging requests to establish a connection between two devices."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What are well-known ports (0-1023) associated with?",
+            "Choices": [
+                "A. Common protocols at the core of TCP/IP",
+                "B. Dynamic or private applications",
+                "C. Proprietary applications from vendors",
+                "D. Secure versions of protocols"
+            ],
+            "AnswerKey": "A. Common protocols at the core of TCP/IP",
+            "Explaination": "Well-known ports are related to the common protocols at the core of the TCP/IP model, including DNS, SMTP, etc."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What is resource pooling in the context of cloud computing?",
+            "Choices": [
+                "A. Limiting the flexibility of cloud-based facilities",
+                "B. Outsourcing resources to external data center",
+                "C. Restricting access to resources",
+                "D. Sharing physical servers with other organizations"
+            ],
+            "AnswerKey": "D. Sharing physical servers with other organizations",
+            "Explaination": "Resource pooling as the ability to share in the resources of other colleagues or similar types of industries."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "In which cloud service model does the provider fully manage the infrastructure, operating system, and software applications, while the customer is responsible only for managing and owning their data?",
+            "Choices": [
+                "A. Desktop as a service (DaaS)",
+                "B. Infrastructure as a service (IaaS)",
+                "C. Platform as a service (PaaS)",
+                "D. Software as a service (SaaS)"
+            ],
+            "AnswerKey": "D. Software as a service (SaaS)",
+            "Explaination": "Software as a Service (SaaS) is a cloud computing model where the provider manages all aspects of the infrastructure, operating system, and software applications, allowing customers to access fully managed services without worrying about maintenance or updates. The customer retains ownership and control over their data, which they use within the provider\u2019s applications. This arrangement offers convenience and scalability, freeing organizations from managing hardware and software while ensuring their data remains secure and accessible. Understanding this distinction is crucial for correctly identifying SaaS compared to other cloud service models like IaaS and PaaS."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What is one of the services offered by many MSPs, where they monitor firewalls and other security tools to provide expertise in triaging events?",
+            "Choices": [
+                "A. Incident Triage Service",
+                "B. Managed Detection and Response (MDR) Service",
+                "C. Managed Firewall Service",
+                "D. Security Patching Service"
+            ],
+            "AnswerKey": "B. Managed Detection and Response (MDR) Service",
+            "Explaination": "Many MSPs offer cloud-based services, including a managed detection and response (MDR) service where vendors monitor firewall and other security tools to provide expertise in triaging events."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "Which cloud computing model provides scalable virtual infrastructure, such as servers and storage, without requiring local hardware installation?",
+            "Choices": [
+                "A. Hybrid Cloud",
+                "B. Infrastructure as a Service (IaaS)",
+                "C. Platform as a Service (PaaS)",
+                "D. Software as a Service (SaaS)"
+            ],
+            "AnswerKey": "B. Infrastructure as a Service (IaaS)",
+            "Explaination": "Infrastructure as a Service (IaaS) is the cloud computing model that provides scalable computing resources like servers, storage, and networking on demand. This allows organizations to quickly deploy or expand software and data solutions without purchasing or installing physical hardware locally. While SaaS and PaaS also support rapid development and deployment, only IaaS focuses on providing the underlying infrastructure, which makes it ideal for flexible scaling of systems."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "Which organization's definition of cloud computing is commonly used globally?",
+            "Choices": [
+                "A. Cloud Computing Consortium (CCC)",
+                "B. Cloud Security Alliance (CSA)",
+                "C. Internet Engineering Task Force (IETF)",
+                "D. National Institute of Standards and Technology (NIST)"
+            ],
+            "AnswerKey": "D. National Institute of Standards and Technology (NIST)",
+            "Explaination": "The NIST definition of cloud computing enjoys widespread global adoption. It outlines a model designed to facilitate pervasive, user-friendly access to a dynamically scalable pool of configurable computing resources, including networks, servers, storage, applications, and services. These resources can be swiftly provisioned and released with minimal involvement from service providers, representing a significant advancement in ease of management and user interaction, as outlined in NIST Special Publication 800-145."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What is the main purpose of an SLA?",
+            "Choices": [
+                "A. To agree on data return and destruction details",
+                "B. To create legal contracts only",
+                "C. To document specific parameters and minimum service levels",
+                "D. To specify data ownership"
+            ],
+            "AnswerKey": "C. To document specific parameters and minimum service levels",
+            "Explaination": "The purpose of an SLA is to document specific parameters, minimum service levels, and remedies for any failure to meet the specified requirements."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What distinguishes Memoranda of Understanding (MOU) or Memoranda of Agreement (MOA) from Service Level Agreements (SLA)?",
+            "Choices": [
+                "A. MOUs/MOAs are legally binding, while SLAs are informal agreements",
+                "B. MOUs/MOAs are more directly related to what can be done with a system or information, while SLAs specify more intricate aspects of services",
+                "C. MOUs/MOAs are specific to the healthcare industry, while SLAs apply to all industries",
+                "D. MOUs/MOAs focus on regulatory requirements, while SLAs focus on industry guidelines"
+            ],
+            "AnswerKey": "B. MOUs/MOAs are more directly related to what can be done with a system or information, while SLAs specify more intricate aspects of services",
+            "Explaination": "MOUs/MOAs focus on the broader scope of agreements, while SLAs provide detailed specifications about the services."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What is the primary responsibility of the upper layer (host or application layer) in a network model?",
+            "Choices": [
+                "A. Converting bits into a frame",
+                "B. Handling error detection and correction in data transmission",
+                "C. Receiving bits from the physical connection medium",
+                "D. Transforming data into a format that any system can understand"
+            ],
+            "AnswerKey": "D. Transforming data into a format that any system can understand",
+            "Explaination": "The upper layer is responsible for managing the integrity of a connection, controlling the session, and transforming data received from the application layer into a format that any system can understand."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What might a user typically need to acknowledge before being allowed to access the internet in a hotel network?",
+            "Choices": [
+                "A. Acceptable use policy",
+                "B. Corporate policies",
+                "C. Employee BYOD policies",
+                "D. Room number and guest name"
+            ],
+            "AnswerKey": "A. Acceptable use policy",
+            "Explaination": "A user connecting to a hotel network is required to acknowledge the acceptable use policy before being allowed to access the internet."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "How are VLANs used in Network Access Control (NAC) systems?",
+            "Choices": [
+                "A. NAC systems eliminate the need for VLANs",
+                "B. VLANs control whether devices connect to the corporate network or a guest network",
+                "C. VLANs determine the physical network switch to which NAC systems attach",
+                "D. VLANs have no relevance to NAC systems"
+            ],
+            "AnswerKey": "B. VLANs control whether devices connect to the corporate network or a guest network",
+            "Explaination": "NAC systems use VLANs to control whether devices connect to the corporate network or a guest network."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "Which layer of the OSI model corresponds to the Internet Layer in the TCP/IP protocol architecture?",
+            "Choices": [
+                "A. Application Layer",
+                "B. Data Link Layer",
+                "C. Network Layer",
+                "D. Transport Layer"
+            ],
+            "AnswerKey": "C. Network Layer",
+            "Explaination": "The Internet Layer in the TCP/IP protocol architecture corresponds to the Network Layer in the OSI model."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What protocol is often used by embedded systems when connected to a corporate network?",
+            "Choices": [
+                "A. FTP",
+                "B. HTTP",
+                "C. TCP/IP",
+                "D. UDP"
+            ],
+            "AnswerKey": "C. TCP/IP",
+            "Explaination": "Embedded systems are often connected to a corporate network and may operate using the TCP/IP protocol."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What information would be removed from a threat alert to maintain anonymity?",
+            "Choices": [
+                "A. Host name and username",
+                "B. Path to the executable file",
+                "C. PID (Process ID) and executable file details",
+                "D. Start time and process name"
+            ],
+            "AnswerKey": "A. Host name and username",
+            "Explaination": "The alert removes the host name and username fields to maintain anonymity."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "How can logical network segmentation be imposed on embedded systems and IoT devices?",
+            "Choices": [
+                "A. By increasing their access routes",
+                "B. By isolating them from other devices on the network",
+                "C. Through traffic-control means, including VLANs, MAC addresses, IP addresses, physical ports, protocols, or application filtering",
+                "D. Using wireless networks"
+            ],
+            "AnswerKey": "C. Through traffic-control means, including VLANs, MAC addresses, IP addresses, physical ports, protocols, or application filtering",
+            "Explaination": "Logical network segmentation can be imposed on embedded systems and IoT devices using various traffic-control means."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "How many layers does the OSI model have?",
+            "Choices": [
+                "A. Eight",
+                "B. Five",
+                "C. Seven",
+                "D. Six"
+            ],
+            "AnswerKey": "C. Seven",
+            "Explaination": "The OSI model divides networking tasks into seven distinct layers."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What key function does a NAC (Network Access Control) device provide to support both access security and incident response?",
+            "Choices": [
+                "A. Allowing exceptions for non-compliant devices",
+                "B. Creating access control policies",
+                "C. Guest user access",
+                "D. Network visibility"
+            ],
+            "AnswerKey": "D. Network visibility",
+            "Explaination": "A Network Access Control (NAC) device plays a critical role in maintaining access security by providing comprehensive network visibility. This visibility allows security teams to monitor which devices are connected, assess their compliance with security policies, and take appropriate actions if unauthorized or non-compliant devices are detected. Beyond access control, the detailed insights NAC offers can also support effective incident response by helping identify suspicious activity, trace sources of compromise, and isolate affected devices quickly."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "Which cloud deployment model allows an organization to retain control of its IT environments, use public cloud services for non-mission critical workloads, and benefit from flexibility, scalability, and cost savings?",
+            "Choices": [
+                "A. Community",
+                "B. Hybrid",
+                "C. Private",
+                "D. Public"
+            ],
+            "AnswerKey": "B. Hybrid",
+            "Explaination": "A hybrid cloud deployment model is gaining popularity with organizations as it allows them to retain control of their IT environments, use public cloud services for non-mission critical workloads, and benefit from flexibility, scalability, and cost savings."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "How does microsegmentation in zero-trust networks enhance security?",
+            "Choices": [
+                "A. By allowing users unlimited capabilities",
+                "B. By eliminating the need for security boundary control devices",
+                "C. By enforcing frequent re-authentication of user ID",
+                "D. By providing unlimited access to users"
+            ],
+            "AnswerKey": "C. By enforcing frequent re-authentication of user ID",
+            "Explaination": "Microsegmenting internal networks in zero-trust environments enforces frequent re-authentication of a user ID."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "An attack against the availability of a network/system; typically uses many attacking machines to direct traffic against a given target.\n\nWhat is the name of this?",
+            "Choices": [
+                "A. Distributed-denial-of-service (DDOS)",
+                "B. Stealth",
+                "C. Virus",
+                "D. Worm"
+            ],
+            "AnswerKey": "A. Distributed-denial-of-service (DDOS)",
+            "Explaination": "This is the description of a DDOS attack."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What is a security solution installed on an endpoint to detect potentially anomalous activity?",
+            "Choices": [
+                "A. Host-based intrusion prevention system",
+                "B. Router",
+                "C. Security incident and event management system (SIEM)",
+                "D. Switch"
+            ],
+            "AnswerKey": "A. Host-based intrusion prevention system",
+            "Explaination": "Host-based intrusion prevention system is a security solution installed on an endpoint to detect potentially anomalous activity."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "What is the purpose of a subnet mask in IPv4?",
+            "Choices": [
+                "A. It defines the part of the address used for the subnet",
+                "B. It indicates multicast addresses",
+                "C. It is assigned to network interfaces for external communication",
+                "D. It is used for broadcast purposes"
+            ],
+            "AnswerKey": "A. It defines the part of the address used for the subnet",
+            "Explaination": "A subnet mask is used in IPv4 to define the part of the address used for the subnet, allowing networks to be divided into subnets."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 4",
+            "Question": "Endpoint <------> Web server\n\nWhich port number is associated with the protocol typically used in this connection?",
+            "Choices": [
+                "A. 161",
+                "B. 21",
+                "C. 53",
+                "D. 80"
+            ],
+            "AnswerKey": "D. 80",
+            "Explaination": "80 is the port for the HTTP protocol, commonly used for Web traffic."
+        }
+    ]
+}

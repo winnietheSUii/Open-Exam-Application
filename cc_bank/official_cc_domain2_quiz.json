@@ -1,0 +1,227 @@
+{
+    "Exam Name": "\ud83e\udde0 ISC2 CC Quiz \u2014 Domain 2 (Incident Response, BC, DR)",
+    "Number of Questions": 18,
+    "Default Time": 36,
+    "Instructions": "Read the questions carefully and select the best answer.",
+    "DomainPercentages": {
+        "ISC2 CC Domain 2": 100
+    },
+    "Questions": [
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "What term is sometimes used interchangeably with \"incident management\"?",
+            "Choices": [
+                "A. Business continuity",
+                "B. Crisis Management",
+                "C. Crisis response",
+                "D. Safety management"
+            ],
+            "AnswerKey": "B. Crisis Management",
+            "Explaination": "Some organizations use the term \"crisis management\" to describe the incident management process."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "What is the purpose of a red book in the context of business continuity?",
+            "Choices": [
+                "A. To be distributed to all employees",
+                "B. To outline procedures for routine tasks",
+                "C. To provide a backup copy of the business continuity plan",
+                "D. To serve as a hard copy backup accessible outside the facility"
+            ],
+            "AnswerKey": "D. To serve as a hard copy backup accessible outside the facility",
+            "Explaination": "A red book is a physical, offline copy stored outside the facility to ensure access when electronic systems or buildings are unavailable."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "Why are notification systems and call trees important in a business continuity plan?",
+            "Choices": [
+                "A. To alert personnel when the BCP is being enacted",
+                "B. To disrupt emergency response agencies",
+                "C. To exclude vendors and customers",
+                "D. To focus solely on supply chain members"
+            ],
+            "AnswerKey": "A. To alert personnel when the BCP is being enacted",
+            "Explaination": "Notification systems and call trees ensure personnel are informed quickly when continuity procedures begin."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "What is a key outcome of a Business Impact Analysis (BIA)?",
+            "Choices": [
+                "A. Identification of functions and dependencies",
+                "B. Immediate effect on other areas of work",
+                "C. Importance of customer service staff",
+                "D. Transition to permanent office space"
+            ],
+            "AnswerKey": "A. Identification of functions and dependencies",
+            "Explaination": "A BIA identifies critical business functions and their dependencies to prioritize recovery."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "In the United States, what type of networks can be used to maintain essential activity during a severe cyberattack that affects communications?",
+            "Choices": [
+                "A. Commercial cell phone networks",
+                "B. Hospital-specific networks",
+                "C. Internet-based networks",
+                "D. Military-grade networks"
+            ],
+            "AnswerKey": "D. Military-grade networks",
+            "Explaination": "Certain protected or military-grade networks can maintain essential communications during severe cyber events."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "What is the first phase in the components of an incident response plan?",
+            "Choices": [
+                "A. Containment",
+                "B. Detection & Analysis",
+                "C. Post-Incident Activity",
+                "D. Preparation"
+            ],
+            "AnswerKey": "D. Preparation",
+            "Explaination": "Incident response begins with preparation before any incident occurs."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "What is the primary distinction between business continuity planning (BCP) and disaster recovery planning (DRP)?",
+            "Choices": [
+                "A. BCP and DRP are interchangeable terms",
+                "B. BCP focuses on emergency response personnel actions, while DRP restores IT and communications",
+                "C. BCP ensures business sustainment, while DRP is about building security",
+                "D. DRP is about restoring IT, while BCP focuses on business operations"
+            ],
+            "AnswerKey": "D. DRP is about restoring IT, while BCP focuses on business operations",
+            "Explaination": "BCP ensures continued business operations, while DRP focuses on IT and communications recovery."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "Which of the following is very likely to be used in a disaster recovery (DR) effort?",
+            "Choices": [
+                "A. Anti-malware solutions",
+                "B. Contract personnel",
+                "C. Data backups",
+                "D. Guard dogs"
+            ],
+            "AnswerKey": "C. Data backups",
+            "Explaination": "Backups are essential for restoring systems and data after a disaster."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "What is the purpose of the Executive Summary in a Disaster Recovery Plan?",
+            "Choices": [
+                "A. To list department-specific plans",
+                "B. To offer a high-level overview of the plan",
+                "C. To provide detailed technical guidance",
+                "D. To serve as a checklist for critical team members"
+            ],
+            "AnswerKey": "B. To offer a high-level overview of the plan",
+            "Explaination": "The executive summary provides leadership with a concise overview of the DR plan."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "Who must provide support for business continuity planning efforts?",
+            "Choices": [
+                "A. Executive management or an executive sponsor",
+                "B. External consultants",
+                "C. Frontline employees",
+                "D. Middle management"
+            ],
+            "AnswerKey": "A. Executive management or an executive sponsor",
+            "Explaination": "Executive support is essential to ensure authority, funding, and enforcement of BCP efforts."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "Which of these components is very likely to be instrumental to any disaster recovery (DR) effort?",
+            "Choices": [
+                "A. Backups",
+                "B. Firewalls",
+                "C. Laptops",
+                "D. Routers"
+            ],
+            "AnswerKey": "A. Backups",
+            "Explaination": "Backups enable restoration of systems and data after disruption."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "Why must disaster recovery plans consider databases and system dependencies?",
+            "Choices": [
+                "A. To address intricate system dependencies",
+                "B. To comply with legal regulations",
+                "C. To reduce storage costs",
+                "D. To streamline documentation"
+            ],
+            "AnswerKey": "A. To address intricate system dependencies",
+            "Explaination": "Complex systems rely on interdependencies that must be restored in the correct order."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "What is the next step after detection and analysis in the incident response process?",
+            "Choices": [
+                "A. External investigation",
+                "B. Finding the appropriate containment strategy",
+                "C. Identifying attacker motives",
+                "D. Internal audit"
+            ],
+            "AnswerKey": "B. Finding the appropriate containment strategy",
+            "Explaination": "Containment follows detection to limit damage."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "What are the four primary responsibilities of a response team during an incident?",
+            "Choices": [
+                "A. Assessing, determining compromise, recovering, supervising",
+                "B. Assessing, reporting, recovering, analyzing",
+                "C. Determining damage, assessing compromise, implementing recovery, supervising security",
+                "D. Troubleshooting, assessing, reporting, recovering"
+            ],
+            "AnswerKey": "Determining damage, assessing compromise, implementing recovery procedures, and supervising security measures",
+            "Explaination": "The four primary responsibilities of a response team when an incident occurs are determining damage, assessing compromise, implementing recovery procedures, and supervising security measures."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "What is the first step after an incident is detected?",
+            "Choices": [
+                "A. Assess and scope damage",
+                "B. Erase malicious files",
+                "C. Contact law enforcement",
+                "D. Notify the public"
+            ],
+            "AnswerKey": "A. Assess and scope damage",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "An unauthorized attempt to access an organization\u2019s IT environment is an example of a(n):",
+            "Choices": [
+                "A. Event",
+                "B. Exploit",
+                "C. Intrusion",
+                "D. Malware"
+            ],
+            "AnswerKey": "C. Intrusion",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "What is the key characteristic of a Zero Day vulnerability?",
+            "Choices": [
+                "A. It does not fit recognized patterns, signatures, or methods",
+                "B. It fits recognized patterns",
+                "C. It is a known vulnerability",
+                "D. It is easily detected"
+            ],
+            "AnswerKey": "A. It does not fit recognized patterns, signatures, or methods",
+            "Explaination": ""
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 2",
+            "Question": "A compromised user account discovered after failed logins is an example of:",
+            "Choices": [
+                "A. Disaster",
+                "B. Incident detection",
+                "C. Malware",
+                "D. Risk management"
+            ],
+            "AnswerKey": "B. Incident detection",
+            "Explaination": ""
+        }
+    ]
+}
