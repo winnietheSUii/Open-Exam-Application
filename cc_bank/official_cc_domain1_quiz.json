@@ -1,5 +1,5 @@
 {
-    "Exam Name": "\ud83e\udde0 ISC2 CC Quiz \u2014 Domain 1 (Risk, Ethics, Governance, Controls)",
+    "Exam Name": "🧠 ISC2 CC Quiz — Domain 1 (Risk, Ethics, Governance, Controls)",
     "Number of Questions": 37,
     "Default Time": 74,
     "Instructions": "Read the questions carefully and select the best answer.",
@@ -73,10 +73,10 @@
             "Choices": [
                 "A. Limited Access Data",
                 "B. Personal Identification Element",
-                "C. Personally Identifiable Information",
+                "C. Personally Identifiable Information (PII)",
                 "D. PII Fusion"
             ],
-            "AnswerKey": "Personally Identifiable Information (PII)",
+            "AnswerKey": "C. Personally Identifiable Information (PII)",
             "Explaination": "PII can identify individuals, especially when combined."
         },
         {
@@ -206,9 +206,9 @@
                 "A. Something you have",
                 "B. Something you know",
                 "C. Something you are",
-                "D. Somewhere you are"
+                "D. All of the above"
             ],
-            "AnswerKey": "Something you have, know, are",
+            "AnswerKey": "D. All of the above",
             "Explaination": "These are the classic authentication factors."
         },
         {
@@ -293,7 +293,7 @@
                 "D. Denial of transactions"
             ],
             "AnswerKey": "D. Denial of transactions",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 1",
@@ -305,7 +305,7 @@
                 "D. Multiple factors"
             ],
             "AnswerKey": "C. Passphrases",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 1",
@@ -317,7 +317,7 @@
                 "D. Power redundancy"
             ],
             "AnswerKey": "D. Power redundancy",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 1",
@@ -329,7 +329,7 @@
                 "D. Conflate"
             ],
             "AnswerKey": "D. Conflate",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 1",
@@ -341,7 +341,7 @@
                 "D. Mitigate"
             ],
             "AnswerKey": "C. Accept",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 1",
@@ -353,7 +353,7 @@
                 "D. Risk management"
             ],
             "AnswerKey": "A. Risk appetite",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 1",
@@ -365,7 +365,7 @@
                 "D. Mitigate"
             ],
             "AnswerKey": "B. Avoid",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 1",
@@ -377,7 +377,7 @@
                 "D. Reported to management"
             ],
             "AnswerKey": "D. Reported to management",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 1",
@@ -389,7 +389,7 @@
                 "D. Walls and locks"
             ],
             "AnswerKey": "D. Walls and locks",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 1",
@@ -401,7 +401,7 @@
                 "D. Consistency"
             ],
             "AnswerKey": "C. Availability",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 1",
@@ -413,11 +413,11 @@
                 "D. Cloud"
             ],
             "AnswerKey": "C. Administrative",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 1",
-            "Question": "Correct governance hierarchy (highest \u2192 lowest)?",
+            "Question": "Correct governance hierarchy (highest → lowest)?",
             "Choices": [
                 "A. Policies, standards, procedures, regulations",
                 "B. Regulations, standards, policies, procedures",
@@ -425,7 +425,7 @@
                 "D. Procedures, policies, regulations, standards"
             ],
             "AnswerKey": "B. Regulations, standards, policies, procedures",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 1",
@@ -437,7 +437,7 @@
                 "D. Procedure"
             ],
             "AnswerKey": "D. Procedure",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 1",

@@ -1,5 +1,5 @@
 {
-    "Exam Name": "\ud83e\udde0 ISC2 CC Quiz \u2014 Domain 2 (Incident Response, BC, DR)",
+    "Exam Name": "🧠 ISC2 CC Quiz — Domain 2 (Incident Response, BC, DR)",
     "Number of Questions": 18,
     "Default Time": 36,
     "Instructions": "Read the questions carefully and select the best answer.",
@@ -172,7 +172,7 @@
                 "C. Determining damage, assessing compromise, implementing recovery, supervising security",
                 "D. Troubleshooting, assessing, reporting, recovering"
             ],
-            "AnswerKey": "Determining damage, assessing compromise, implementing recovery procedures, and supervising security measures",
+            "AnswerKey": "C. Determining damage, assessing compromise, implementing recovery, supervising security",
             "Explaination": "The four primary responsibilities of a response team when an incident occurs are determining damage, assessing compromise, implementing recovery procedures, and supervising security measures."
         },
         {
@@ -185,11 +185,11 @@
                 "D. Notify the public"
             ],
             "AnswerKey": "A. Assess and scope damage",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 2",
-            "Question": "An unauthorized attempt to access an organization\u2019s IT environment is an example of a(n):",
+            "Question": "An unauthorized attempt to access an organization’s IT environment is an example of a(n):",
             "Choices": [
                 "A. Event",
                 "B. Exploit",
@@ -197,7 +197,7 @@
                 "D. Malware"
             ],
             "AnswerKey": "C. Intrusion",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 2",
@@ -209,7 +209,7 @@
                 "D. It is easily detected"
             ],
             "AnswerKey": "A. It does not fit recognized patterns, signatures, or methods",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 2",
@@ -221,7 +221,7 @@
                 "D. Risk management"
             ],
             "AnswerKey": "B. Incident detection",
-            "Explaination": ""
+            "Explaination": "No explanation provided."
         }
     ]
 }

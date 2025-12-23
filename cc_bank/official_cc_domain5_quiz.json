@@ -1,0 +1,371 @@
+{
+    "Exam Name": "\ud83e\udde0 ISC2 CC Quiz \u2014 Domain 5 (Security Operations)",
+    "Number of Questions": 30,
+    "Default Time": 60,
+    "Instructions": "Read the questions carefully and select the best answer.",
+    "DomainPercentages": {
+        "ISC2 CC Domain 5": 100
+    },
+    "Questions": [
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "In the context of security awareness and training programs, what is the PRIMARY goal?",
+            "Choices": [
+                "A. Ensuring data confidentiality",
+                "B. Maximizing business capabilities",
+                "C. Protecting health and human safety",
+                "D. Protecting organizational assets"
+            ],
+            "AnswerKey": "C. Protecting health and human safety",
+            "Explaination": "The primary goal of security awareness and training programs is to protect the health and safety of individuals by promoting behaviors that reduce risks and prevent harm. While protecting assets and ensuring data confidentiality are important objectives, they ultimately support the overarching priority of safeguarding people. Effective training empowers employees to recognize and respond to threats in ways that maintain a safe work environment, making human safety the foundation of all security efforts."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "Which of the following can be used to map data flows through an organization and the relevant security controls used at each point along the way?",
+            "Choices": [
+                "A. Data life cycle",
+                "B. Encryption",
+                "C. Hard copy",
+                "D. Hashing"
+            ],
+            "AnswerKey": "A. Data life cycle",
+            "Explaination": "The data life cycle is a notional tool that can be used to map data flows."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "Data Handling\n\n\n\n\n\n\n\nWhich of the following is the life cycle of data handling?",
+            "Choices": [
+                "A. Create, archive, destroy",
+                "B. Create, store, use, share, archive, destroy",
+                "C. Create, store, use, share, archive",
+                "D. Create, use, archive, destroy"
+            ],
+            "AnswerKey": "B. Create, store, use, share, archive, destroy",
+            "Explaination": "The life cycle of data handling includes the following stages - create, store, use, share, archive, and finally destroy."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "What do integrity services, provided by hash functions and digital signatures, allow a recipient to verify?",
+            "Choices": [
+                "A. That a message has not been altered by malice or error",
+                "B. The encryption key used for a message",
+                "C. The operational methods of an encryption system",
+                "D. The plaintext of a message"
+            ],
+            "AnswerKey": "A. That a message has not been altered by malice or error",
+            "Explaination": "Integrity services provided by hash functions and digital signatures allow a recipient to verify that a message has not been altered by malice or error."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "What is the purpose of security awareness training?",
+            "Choices": [
+                "A. To align information security goals with the organization's mission and vision",
+                "B. To enforce strict policies",
+                "C. To ensure that there people can be held accountable when mistake occur",
+                "D. To store passwords in plaintext for easy retrieval"
+            ],
+            "AnswerKey": "A. To align information security goals with the organization's mission and vision",
+            "Explaination": "The purpose of awareness training is to align information security goals with the organization's missions and vision."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "What is the primary purpose of storing passwords as hash values or digests?",
+            "Choices": [
+                "A. To check if a password matches without revealing the password itself",
+                "B. To create a more secure password management system",
+                "C. To generate random sequences of letters and numbers",
+                "D. To store passwords in plaintext for easy retrieval"
+            ],
+            "AnswerKey": "A. To check if a password matches without revealing the password itself",
+            "Explaination": "Passwords are often stored as hash values or digests so that the system can tell if a password matches without the password itself being visible."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "What is the role of security engineers in data security?",
+            "Choices": [
+                "A. Security engineers are responsible for introducing data into the network",
+                "B. Security engineers are unfamiliar with security codes",
+                "C. Security engineers figure out who is trying to log in and assess security codes",
+                "D. Security engineers only deal with user-friendly security systems"
+            ],
+            "AnswerKey": "C. Security engineers figure out who is trying to log in and assess security codes",
+            "Explaination": "Security engineers get familiar with security codes and can figure out exactly who was trying to log in and whether they were using a secure or questionable port."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "How long does it take to crack a 10-number password using software with cryptographic calculation?",
+            "Choices": [
+                "A. 10 minutes",
+                "B. 1 second",
+                "C. 35 days",
+                "D. 5 seconds"
+            ],
+            "AnswerKey": "D. 5 seconds",
+            "Explaination": "With software using cryptographic calculation, it will take 5 seconds to crack a 10-number password."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "What is something which every security policy should have?",
+            "Choices": [
+                "A. Consequences for non-compliance",
+                "B. General guidelines",
+                "C. Lengthy descriptions",
+                "D. Technical details"
+            ],
+            "AnswerKey": "A. Consequences for non-compliance",
+            "Explaination": "Every security policy should have a penalty or consequence attached in case of non-compliance."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "What does the term \"whaling attacks\" refer to in the context of phishing?",
+            "Choices": [
+                "A. Attacks against entire departments",
+                "B. Attacks against highly placed officials or individuals with sizable assets",
+                "C. Attacks involving large-scale data breaches",
+                "D. Attacks using advanced techniques"
+            ],
+            "AnswerKey": "B. Attacks against highly placed officials or individuals with sizable assets",
+            "Explaination": "Whaling attacks specifically target individuals with authority or substantial assets, attempting to trick them into authorizing large fund wire transfers."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "Which type of organization is likely to have a stricter acceptable use policy according to the passage?",
+            "Choices": [
+                "A. Healthcare facility, research institution, or defense contractor",
+                "B. Organization that encourages personal educational tasks",
+                "C. Organization with a relaxed policy on personal use",
+                "D. Organization with wide personal use of IT assets"
+            ],
+            "AnswerKey": "A. Healthcare facility, research institution, or defense contractor",
+            "Explaination": "Organizations dealing with confidential data may have stricter acceptable use policies due to the potentially devastating consequences of data compromise."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "What task is recommended for employees to practice what they've learned?",
+            "Choices": [
+                "A. Encouraging friendly competition",
+                "B. Implementing automatic computer locking systems",
+                "C. Providing stress balls",
+                "D. Sending simulated phishing emails"
+            ],
+            "AnswerKey": "D. Sending simulated phishing emails",
+            "Explaination": "It is recommended occasionally sending simulated phishing emails to give personnel the opportunity to practice what they've learned is recommended."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "Why is asymmetric encryption considered more secure?",
+            "Choices": [
+                "A. It involves a unique code for the sender and receiver",
+                "B. It requires thousands of keys",
+                "C. It uses a simple algorithm",
+                "D. It uses the same code for both the sender and receiver"
+            ],
+            "AnswerKey": "A. It involves a unique code for the sender and receiver",
+            "Explaination": "Asymmetric encryption is considered more secure because the sender and receiver each use a unique code, often a certificate, ensuring that the"
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "How does hashing respond to minor changes in the input, such as misspellings or changes in letter case?",
+            "Choices": [
+                "A. It creates the same hash digest for similar inputs",
+                "B. It generates a different hash digest for each input",
+                "C. It ignores minor changes and keeps the hash digest constant",
+                "D. It reverses the hash process to accommodate changes"
+            ],
+            "AnswerKey": "B. It generates a different hash digest for each input",
+            "Explaination": "Any minor change in the input will create a completely different hash digest."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "Hashing Deep Dive\n\n\n\n\n\n\n\n\n\nWhat is meant by the term rollback?",
+            "Choices": [
+                "A. Certifying a new software release with vendor third-party testing",
+                "B. Implementing changes in a live environment",
+                "C. Introducing new configurations to the environment",
+                "D. Restoring the system to its previous state before a change"
+            ],
+            "AnswerKey": "D. Restoring the system to its previous state before a change",
+            "Explaination": "Restoring the system to its previous state before a change."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "The Risks of Change\n\n\n\n\n\n\n\n\n\n\n\n\nWho is typically responsible for coordinating change management from a security and oversight perspective?",
+            "Choices": [
+                "A. End users",
+                "B. Information Security professionals",
+                "C. IT or development team",
+                "D. Legacy system administrators"
+            ],
+            "AnswerKey": "B. Information Security professionals",
+            "Explaination": "Information security professionals are typically responsible for coordinating change management because they ensure that any changes to systems, applications, or processes do not introduce new risks or vulnerabilities. Their role involves overseeing proper documentation, reviewing potential security impacts, and ensuring compliance with security policies and procedures. While IT and development teams may implement the changes, it is the security team that provides the necessary governance to maintain the organization\u2019s risk posture."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "What is the first step in the change management process?",
+            "Choices": [
+                "A. Documentation Approval",
+                "B. Request for Change (RFC)",
+                "C. Rollback Approval",
+                "D. Testing the change"
+            ],
+            "AnswerKey": "B. Request for Change (RFC)",
+            "Explaination": "The change management process starts with a request for change (RFC)."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "Which of the following is always true about logging?",
+            "Choices": [
+                "A. Logs should be concise",
+                "B. Logs should be in English",
+                "C. Logs should be stored separately from the systems they're logging",
+                "D. Logs should be very detailed"
+            ],
+            "AnswerKey": "C. Logs should be stored separately from the systems they're logging",
+            "Explaination": "It is important to store log data somewhere other than on the machine where the data is gathered."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "Logging and Monitoring\n\n\n\n\n\n\n\n\n\n\n\nWhy is an asset inventory so important?",
+            "Choices": [
+                "A. It contains a price list",
+                "B. It tells you what to encrypt",
+                "C. The law requires it",
+                "D. You can't protect what you don't know you have"
+            ],
+            "AnswerKey": "D. You can't protect what you don't know you have",
+            "Explaination": "The inventory records which assets the organization has, which gives the organization the opportunity to protect those assets."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "Configuration Management\n\n\n\n\n\n\n\n\n\n\n\n\nWhat solution is recommended for users who struggle to remember multiple passwords for different systems?",
+            "Choices": [
+                "A. Avoid using password managers",
+                "B. Encourage the use of a recommended password management solution",
+                "C. Reuse the same password for multiple systems",
+                "D. Write down passwords in secured areas"
+            ],
+            "AnswerKey": "B. Encourage the use of a recommended password management solution",
+            "Explaination": "Organizations should provide a recommended password management solution for users who struggle to remember multiple passwords for different systems."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "What does Egress monitoring regulate?",
+            "Choices": [
+                "A. Access attempts to remote authentication servers",
+                "B. All inbound communications traffic",
+                "C. Copy to portable media",
+                "D. Data leaving the organization's IT environment"
+            ],
+            "AnswerKey": "D. Data leaving the organization's IT environment",
+            "Explaination": "Egress monitoring is used to regulate data leaving the organization's IT environment."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "Event Logging Best Practices\n\n\n\n\n\n\n\n\n\n\nWhat is the purpose of training in an anti-phishing campaign?",
+            "Choices": [
+                "A. To decrease the chance of physical access issues",
+                "B. To increase the proficiency of staff in identifying phishing emails",
+                "C. To penalise people who fail",
+                "D. To train staff on how to create engaging phishing emails"
+            ],
+            "AnswerKey": "B. To increase the proficiency of staff in identifying phishing emails",
+            "Explaination": "Training in an anti-phishing campaign aims to increase users' proficiency in recognizing potential phishing attempts and practicing correct responses."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "What is a mode of encryption which ensures confidentiality efficiently, with a minimum amount of processing overhead?",
+            "Choices": [
+                "A. Asymmetric",
+                "B. Covert",
+                "C. Hashing",
+                "D. Symmetric"
+            ],
+            "AnswerKey": "D. Symmetric",
+            "Explaination": "Symmetric encryption provides confidentiality with the least amount of processing overhead."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "Symmetric Encryption\n\n\n\n\n\n\n\n\n\n\nWhich key is kept secret in asymmetric encryption?",
+            "Choices": [
+                "A. Private Key",
+                "B. Public Key",
+                "C. Shared Key",
+                "D. Symmetric key"
+            ],
+            "AnswerKey": "A. Private Key",
+            "Explaination": "In asymmetric encryption, one-half of the key pair is kept secret, and only the key holder knows that key. This secret key is referred to as the private key."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "What is \"tailgating\" in the context of social engineering?",
+            "Choices": [
+                "A. The impersonation of an authority figure",
+                "B. The practice of following an authorized user into a restricted area or system",
+                "C. The request for password or login credentials",
+                "D. The use of advanced hacking techniques"
+            ],
+            "AnswerKey": "B. The practice of following an authorized user into a restricted area or system",
+            "Explaination": "Tailgating involves following an authorized user into a restricted area or system, either by asking to hold the door or through more sophisticated methods."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "What are the five main properties that a cryptographic hash function must demonstrate to be useful and secure?",
+            "Choices": [
+                "A. Reversible, non-reversible, content integrity assurance, unique, nondeterministic",
+                "B. Useful, non-reversible, content integrity assurance, unique, deterministic",
+                "C. Useful, reversible, content integrity assurance, unique, deterministic",
+                "D. Useful, reversible, content integrity assurance, unique, nondeterministic"
+            ],
+            "AnswerKey": "B. Useful, non-reversible, content integrity assurance, unique, deterministic",
+            "Explaination": "For a cryptographic hash function to be useful and secure, it must have the following properties - useful, non-reversible, content integrity assurance, unique, and deterministic."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "A set of security controls or system settings used to ensure uniformity of configuration throughout the IT environment. \n \nThis is the definition of:",
+            "Choices": [
+                "A. Baseline",
+                "B. Inventory",
+                "C. Patches",
+                "D. Policy"
+            ],
+            "AnswerKey": "A. Baseline",
+            "Explaination": "A set of security controls or system settings used to ensure uniformity of configuration throughout the IT environment is the definition of a baseline."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "Which organizational policy is most likely to indicate which types of smartphones can be used to connect to the internal IT environment?",
+            "Choices": [
+                "A. The AUP (acceptable use policy)",
+                "B. The BYOD policy (bring your own device)",
+                "C. The CM policy (change management)",
+                "D. The password policy"
+            ],
+            "AnswerKey": "B. The BYOD policy (bring your own device)",
+            "Explaination": "The BYOD policy typically describes which devices can be used to process data and access networks belonging to the organization."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "Who is responsible for publishing and signing the organization's policies?",
+            "Choices": [
+                "A. Human Resources",
+                "B. Senior management",
+                "C. The legal department",
+                "D. The security office"
+            ],
+            "AnswerKey": "B. Senior management",
+            "Explaination": "Policies are direct organizational mandates from senior management."
+        },
+        {
+            "DomainOfKnowledge": "ISC2 CC Domain 5",
+            "Question": "What is a ready visual cue to let anyone in contact with the data know what the classification is?",
+            "Choices": [
+                "A. Encryption",
+                "B. Graphics",
+                "C. Label",
+                "D. Photos"
+            ],
+            "AnswerKey": "C. Label",
+            "Explaination": "The label reflects the classification of a given piece of data."
+        }
+    ]
+}

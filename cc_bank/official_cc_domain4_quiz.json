@@ -1,5 +1,5 @@
 {
-    "Exam Name": "\ud83e\udde0 ISC2 CC Quiz \u2014 Domain 4 (Network Security)",
+    "Exam Name": "🧠 ISC2 CC Quiz — Domain 4 (Network Security)",
     "Number of Questions": 41,
     "Default Time": 82,
     "Instructions": "Read the questions carefully and select the best answer.",
@@ -74,9 +74,9 @@
                 "A. Anti-malware/antivirus",
                 "B. Firewalls",
                 "C. Intrusion Protection System (IPS)",
-                "D. Vulnerability Scanner"
+                "D. A, B, and C"
             ],
-            "AnswerKey": "A. Anti-malware/antivirus, B. Firewalls, C. Intrusion Protection System (IPS)",
+            "AnswerKey": "D. A, B, and C",
             "Explaination": "Anti-malware/antivirus software, firewalls, and Intrusion Prevention Systems (IPS) are tools that can both detect and block threats, making them key components of proactive cybersecurity. In contrast, tools like SIEM or vulnerability scanners are typically used for monitoring, logging, or identifying weaknesses but do not directly stop threats from occurring."
         },
         {
@@ -257,7 +257,7 @@
                 "D. Software as a service (SaaS)"
             ],
             "AnswerKey": "D. Software as a service (SaaS)",
-            "Explaination": "Software as a Service (SaaS) is a cloud computing model where the provider manages all aspects of the infrastructure, operating system, and software applications, allowing customers to access fully managed services without worrying about maintenance or updates. The customer retains ownership and control over their data, which they use within the provider\u2019s applications. This arrangement offers convenience and scalability, freeing organizations from managing hardware and software while ensuring their data remains secure and accessible. Understanding this distinction is crucial for correctly identifying SaaS compared to other cloud service models like IaaS and PaaS."
+            "Explaination": "Software as a Service (SaaS) is a cloud computing model where the provider manages all aspects of the infrastructure, operating system, and software applications, allowing customers to access fully managed services without worrying about maintenance or updates. The customer retains ownership and control over their data, which they use within the provider’s applications. This arrangement offers convenience and scalability, freeing organizations from managing hardware and software while ensuring their data remains secure and accessible. Understanding this distinction is crucial for correctly identifying SaaS compared to other cloud service models like IaaS and PaaS."
         },
         {
             "DomainOfKnowledge": "ISC2 CC Domain 4",

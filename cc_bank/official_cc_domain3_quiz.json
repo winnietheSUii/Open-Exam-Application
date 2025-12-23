@@ -1,5 +1,5 @@
 {
-    "Exam Name": "\ud83e\udde0 ISC2 CC Quiz \u2014 Domain 3 (Access Control Concepts)",
+    "Exam Name": "🧠 ISC2 CC Quiz — Domain 3 (Access Control Concepts)",
     "Number of Questions": 28,
     "Default Time": 56,
     "Instructions": "Read the questions carefully and select the best answer.",
@@ -184,7 +184,7 @@
                 "C. Environmental design",
                 "D. User actions (keystrokes, voice)"
             ],
-            "AnswerKey": "User actions",
+            "AnswerKey": "D. User actions (keystrokes, voice)",
             "Explaination": "Behavioral biometrics analyze how users behave."
         },
         {
