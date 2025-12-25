@@ -413,6 +413,18 @@
             </div>
 
             <div class="setup-option-group">
+                <input type="radio" id="setup-custom-time" name="exam-setup-type" value="custom_time">
+                <label for="setup-custom-time" class="inline-label">Custom Time Mode</label>
+            </div>
+
+            <div class="setup-option-group">
+                <input type="radio" id="setup-training" name="exam-setup-type" value="training_mode">
+                <label for="setup-training" class="inline-label" style="color: #673ab7; font-weight: bold;">
+                    Training Mode (Instant Feedback)
+                </label>
+            </div>
+
+            <div class="setup-option-group">
                 <input type="checkbox" id="show-time-warning-checkbox">
                 <label for="show-time-warning-checkbox" class="inline-label">Show time warning on questions</label>
             </div>
@@ -696,7 +708,7 @@
             document.getElementById('default-settings-info').style.display = (type === 'default') ? 'block' : 'none';
 
             // Real Exam hides standard counts
-            elements.customExamCommonOptions.style.display = (type === 'quick' || type === 'custom_domain') ? 'block' : 'none';
+            elements.customExamCommonOptions.style.display = (type === 'quick' || type === 'custom_domain' || type === 'custom_time') ? 'block' : 'none';
 
             updateCurrentExamSetup();
         }
@@ -707,11 +719,16 @@
             let numQ = 0, timeM = 0, summary = "";
             isBackNavigationDisabled = false;
 
-            if (type === 'default') {
+            if (type === 'default' || type === 'training_mode') {
                 numQ = Math.min(examData["Number of Questions"], maxQuestionsInBank);
                 timeM = examData["Default Time"];
                 if (examData["BackNavigation"] === false) isBackNavigationDisabled = true;
-                summary = `Default: ${numQ} Qs, ${timeM} mins.`;
+
+                if (type === 'training_mode') {
+                    summary = `Training Mode: ${numQ} Qs, ${timeM} mins. (Instant Feedback)`;
+                } else {
+                    summary = `Default: ${numQ} Qs, ${timeM} mins.`;
+                }
             } else if (type === 'real_exam') {
                 // Strict Mode
                 numQ = 100;
@@ -737,7 +754,12 @@
                     parseInt(elements.customQuestionCountInput.value) || 0 : parseInt(elements.customQuestionCountSelect.value);
                 numQ = Math.min(reqQ, poolSize);
                 timeM = parseInt(elements.examDurationSetupInput.value) || 0;
-                summary = `Custom: ${numQ} Qs, ${timeM} mins.`;
+
+                let modeLabel = 'Custom';
+                if (type === 'custom_time') modeLabel = 'Custom Time';
+                if (type === 'notebook_mode') modeLabel = 'Notebook Mode';
+
+                summary = `${modeLabel}: ${numQ} Qs, ${timeM} mins.`;
             }
 
             currentExamSetup.numQuestions = numQ;
@@ -917,8 +939,59 @@
             elements.progressText.innerText = `Question ${currentQuestionIndex + 1} / ${randomizedExamData.length}`;
         }
 
-        function goNext() {
+        async function goNext() {
             try {
+                // TRAINING MODE LOGIC
+                if (currentExamSetup.type === 'training_mode') {
+                    const picked = elements.choicesContainer.querySelector('input[name="answer"]:checked');
+                    if (!picked) { alert("Select an answer to see the result."); return; }
+
+                    // Disable inputs so they can't change answer while viewing
+                    elements.choicesContainer.querySelectorAll('input').forEach(i => i.disabled = true);
+
+                    const qData = randomizedExamData[currentQuestionIndex];
+                    const isCorrect = (picked.value === qData.AnswerKey);
+
+                    // Show explanation immediately
+                    // Create a div if it doesn't exist? OR we use alert?
+                    // Better: Append to the question area
+                    let feedbackDiv = document.getElementById('notebook-feedback');
+                    if (!feedbackDiv) {
+                        feedbackDiv = document.createElement('div');
+                        feedbackDiv.id = 'notebook-feedback';
+                        feedbackDiv.style.marginTop = "20px";
+                        feedbackDiv.style.padding = "15px";
+                        feedbackDiv.style.borderRadius = "8px";
+                        elements.questionContainer.appendChild(feedbackDiv);
+                    }
+
+                    feedbackDiv.style.display = 'block';
+                    feedbackDiv.style.backgroundColor = isCorrect ? "#d4edda" : "#f8d7da";
+                    feedbackDiv.style.border = isCorrect ? "1px solid #c3e6cb" : "1px solid #f5c6cb";
+                    feedbackDiv.innerHTML = `
+                        <h3 style="margin-top:0; color: ${isCorrect ? '#155724' : '#721c24'}">
+                            ${isCorrect ? '✅ Correct!' : '❌ Incorrect'}
+                        </h3>
+                        <p><strong>Correct Answer:</strong> ${qData.AnswerKey}</p>
+                        <p><strong>Explanation:</strong> ${qData.Explaination}</p>
+                        <button id="notebook-continue-btn" class="button-base" style="margin-top:10px">Continue to Next Question</button>
+                    `;
+
+                    // Hide normal Next button, show Continue button
+                    elements.nextButton.style.display = 'none';
+
+                    // Wait for user to click Continue
+                    await new Promise(resolve => {
+                        const btn = document.getElementById('notebook-continue-btn');
+                        btn.onclick = () => {
+                            feedbackDiv.remove(); // Clean up
+                            resolve();
+                        };
+                    });
+
+                    // Restore Next button visibility for next round (handled by showQuestion)
+                }
+
                 if (currentExamSetup.type === 'real_exam') {
                     const picked = elements.choicesContainer.querySelector('input[name="answer"]:checked');
                     if (!picked) { alert("Real Exam: Select an answer."); return; }
